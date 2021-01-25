@@ -4,6 +4,7 @@ import Widget from '../src/components/Widget'
 import QuizBackground from '../src/components/QuizBackground'
 import Footer from '../src/components/Footer'
 import GitHubCorner from '../src/components/GitHubCorner'
+import QuizLogo from '../src/components/QuizLogo'
 
 
 // const BackgroundImage = styled.div`
@@ -28,19 +29,20 @@ export default function Home() {
   return (
     <QuizBackground backgroundImage={db.bg}>
       <QuizContainer>
+      <QuizLogo />
         <Widget>
           <Widget.Header>
-            <h1>The Legend of zelda</h1>
+            <h1>O Rei</h1>
           </Widget.Header>
           <Widget.Content>
-            <p>Lorem ipsum dolor sit amet...</p>
+            <p>Teste os seus conhecimentos sobre LEÕES e vamos ver quantas você vai acertar</p>
           </Widget.Content>
           
         </Widget>
         <Widget>
           <Widget.Content>
             <h1>Quizes da Galera</h1>
-            <p>Lorem ipsum dolor sit amet...</p>
+            <p>Teste os seus conhecimentos sobre LEÕES e vamos ver quantas você vai acertar</p>
           </Widget.Content>   
         </Widget>
         <Footer />
