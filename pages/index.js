@@ -1,11 +1,15 @@
-import styled from 'styled-components'
-import db from '../db.json'
-import Widget from '../src/components/Widget'
-import QuizBackground from '../src/components/QuizBackground'
-import Footer from '../src/components/Footer'
-import GitHubCorner from '../src/components/GitHubCorner'
-import QuizLogo from '../src/components/QuizLogo'
+import React from 'react';
+import styled from 'styled-components';
+import db from '../db.json';
+import { useRouter } from 'next/router';
 
+import Widget from '../src/components/Widget';
+import QuizBackground from '../src/components/QuizBackground';
+import Footer from '../src/components/Footer';
+import GitHubCorner from '../src/components/GitHubCorner';
+import QuizLogo from '../src/components/QuizLogo';
+import Router from 'next/dist/next-server/server/router';
+import { QuizInput } from '../src/components/QuizInput';
 
 // const BackgroundImage = styled.div`
 //   background-image: url(${db.bg});
@@ -26,24 +30,47 @@ const QuizContainer = styled.div`
 `;
 
 export default function Home() {
+  const router = useRouter();
+  const [name, setName] = React.useState('');
+
   return (
     <QuizBackground backgroundImage={db.bg}>
       <QuizContainer>
-      <QuizLogo />
+        <QuizLogo />
         <Widget>
           <Widget.Header>
-            <h1>O Rei</h1>
+            <h1>::: Game Of Thrones :::</h1>
           </Widget.Header>
           <Widget.Content>
-            <p>Teste os seus conhecimentos sobre LEÕES e vamos ver quantas você vai acertar</p>
+            <form onSubmit={function(infosDoEvento){
+              infosDoEvento.preventDefault();
+              
+              router.push(`/quiz?name=${name}`);
+            }}
+            >
+             
+              <input onChange={function(infosDoEvento){
+                //State - Change State
+                setName(infosDoEvento.target.value);
+              }} 
+              
+              placeholder="Diz aí seu nome" />
+              
+              
+              <button type="submit" disabled={name.length ===0}>
+                Jogar {name}
+              </button>
+
+            </form>
+            <p>{db.description}</p>
           </Widget.Content>
-          
+
         </Widget>
         <Widget>
           <Widget.Content>
             <h1>Quizes da Galera</h1>
-            <p>Teste os seus conhecimentos sobre LEÕES e vamos ver quantas você vai acertar</p>
-          </Widget.Content>   
+            <p>Desafie seus conhecimentos respondendo ao  QUIZ da comunidade!!!</p>
+          </Widget.Content>
         </Widget>
         <Footer />
       </QuizContainer>
