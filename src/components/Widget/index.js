@@ -1,14 +1,14 @@
 import styled from 'styled-components'
 
 const Widget = styled.div`
-  margin-top: 24px;
+  margin-top: 10px;
   margin-bottom: 24px;
   border: 1px solid ${({ theme }) => theme.colors.primary};
   background-color: ${({ theme }) => {
     return theme.colors.mainBg;
   }};
   
-  opacity: .9;
+  //opacity: .9;
   border-radius: 4px;
   overflow: hidden;
   
