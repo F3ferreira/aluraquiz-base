@@ -5,21 +5,27 @@ const Input = styled.input`
   width: 100%;
   height: 38px;
   font-size: 15px;
+  text-transform: uppercase;
   color: white;
   padding: 10px;
   outline: 0px;
+  margin-bottom: 15px;
   border: 1px solid ${({ theme }) => theme.colors.primary};
-  border-radius: 3.5px;
+  border-radius: ${({ theme }) => theme.borderRaius};
   background-color: transparent;
   &:focus {
-    border: 1px solid ${({ theme }) => theme.colors.light};
+    border: 1px solid ${({ theme }) => theme.colors.secondary};
   }
 `;
-export function QuizInput() {
-  return <Input 
+export default function QuizInput( { onChange, placeholder, ...props }) {
+  return (
+    <div>
+      <Input 
+      onChange={onChange} 
+      placeholder={placeholder}
+      {...props}
+      />
+    </div>
   
-  
-  placeholder="Diz aí seu nome"
-  
-  autoFocus></Input>;
+  );
 }

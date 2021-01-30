@@ -17,7 +17,7 @@ const FooterWrapper = styled.footer`
     transition: .3s;
     &:hover,
     &:focus {
-      opacity: .5;
+      opacity: .5;      
     }
     span {
       text-decoration: underline;
