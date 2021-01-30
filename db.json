@@ -1,28 +1,165 @@
 {
-    "bg": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2019/05/game-of-thrones-season-8-episode-4-image-emilia-clarke.jpg?",
+    "bg": "https://wallpapercave.com/wp/wp6294287.jpg", 
     "title": "Teste seus conhecimentos sobre Game Of Thrones | Quiz - Alura",
-    "description": "O que você sabe sobre GAME OF THRONES? Participe do Quiz e vamos ver quantas você vai acertar!",
+    "description": "O que você sabe sobre GAME OF THRONES? Participe do Quiz antes que chegue o INVERNO!",
     "questions": [
       {
-        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-        "title": "Como fazer um seletor por id via CSS?",
-        "description": "Essa é pra aquecer",
-        "answer": 2,
+        "bgquestion": "https://images.hdqwalls.com/wallpapers/dragons-fight-game-of-thrones-season-8-ba.jpg",
+        "image": "https://media.giphy.com/media/QsURykLEwyHighCPmh/giphy.gif",
+        "title": "A série é baseada em qual série de livros?",
+        "description": "Essa é só pra aquecer!",
+        "answer": 3,
         "alternatives": [
-          ".elemento",
-          "*elemento",
-          "#elemento",
-          "%elemento"
+           "O Jogo dos Tronos",
+           "O Senhor dos Anéis",
+           "A Dança dos Dragões",
+           "As Crônicas de Gelo e Fogo"
         ]
       },
       {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "Como fazer um background gradiente com css?",
-        "description": "Faz tempo em haha",
+        "bgquestion": "https://wallup.net/wp-content/uploads/2016/05/27/135386-Game_of_Thrones-sigils-House_Stark.jpg",
+        "image": "https://media.giphy.com/media/XbCjY4L3lqB50zngr5/giphy.gif",
+        "title": "Qual o Nome da Casa/Família que possuiam Lobos Gigantes?",
+        "description": "Essa é moleza!",
+        "answer": 1,
+        "alternatives": [
+          "Casa Targaryen",
+          "Casa Stark",
+          "Casa Baratheon",
+          "Casa Tyrell",
+          "Casa Lannister"
+        ]
+      },
+      
+      {
+        "bgquestion": "https://wallpapercave.com/wp/oQt3cIO.jpg",
+        "image": "https://media.giphy.com/media/3oKIP9Cp1w1aO7Lah2/giphy.gif",
+        "title": "O Trono de Ferro é o trono no qual o Rei dos Sete Reinos senta, localizado em uma sala na _____, em _____.",
+        "description": "Onde fica o Trono de Ferro?",
+        "answer": 2,
+        "alternatives": [
+           "Caverna do Dragão / Dorne",
+           "Ilha de Ferro / Westeros",
+           "Fortaleza Vermelha / Porto Real",
+           "Valíria / Rochedo Castely"
+        ]
+      },
+      {
+        "bgquestion": "https://wallpapercave.com/wp/wp1978894.jpg",
+        "image": "https://media.giphy.com/media/n7mCp09VYDrsA/giphy.gif",
+        "title": "Primeiro marido de Daenerys Targaryen - A Mãe de Dragões, o qual era lider de um clã dos Dothraki?",
+        "description": "E não é Aqua Man!!!",
+        "answer": 1,
+        "alternatives": [
+           "Daario Naharis",
+           "Khal Drogo",
+           "Jorah Mormont",
+           "Viserys Targaryen"
+
+        ]
+      },
+      {
+        "bgquestion": "https://cdn.wallpapersafari.com/35/2/b5hnqy.png",
+        "image": "https://media.giphy.com/media/3o6ozm7wwuIdWuyJDa/giphy.gif",
+        "title": "Tywin Lannister, chefe da Casa Lannister, governante das Terras Ocidentais e também era o Senhor de qual Castelo?",
+        "description": "Considerado o Poder em Porto Real",
         "answer": 0,
         "alternatives": [
-           "background: linear-gradient(#e66465, #9198e5);",
-           "background: gradient(#e66465, #9198e5);"
+           "Rochedo Casterly",
+           "Castelo Negro",
+           "Fosso Cailin",
+           "Correrrio"
+        ]
+      },
+      {
+        "bgquestion": "https://wallpapercave.com/wp/wp6340601.jpg",
+        "image": "https://media.giphy.com/media/XYrHWGJPtaQMM/giphy.gif",
+        "title": "Petyr Baelish, também conhecido como Mindinho, tem três títulos por trás de seu nome. Qual dos seguintes não é um deles??",
+        "description": "Além de dono de prostíbulos e influente em conspirações no reino",
+        "answer": 2,
+        "alternatives": [
+           "Lorde Protetor do Vale",
+           "Senhor de Harrenhal",
+           "Protetor do Reino",
+           "Mestre da Moeda"
+        ]
+      },
+      {
+        "bgquestion": "https://wallpapercave.com/wp/wp8326041.jpg",
+        "image": "https://media.giphy.com/media/xTk9ZPrGCf3IyvZ02Y/giphy.gif",
+        "title": "Depois que Robert Baratheon morreu na 1ª temporada, havia várias pessoas dizendo ser o próximo na fila para ser Rei, porém quem era o verdadeiro herdeiro ao trono naquele momento?",
+        "description": "Luta pelo trono",
+        "answer": 1,
+        "alternatives": [
+           "Daenerys Targaryen",
+           "Stannis Baratheon",
+           "Renly Baratheon",
+           "Ned Stark"
+        ]
+      },
+      {
+        "bgquestion": "http://watchersonthewall.com/wp-content/uploads/2017/07/702-king-s-landing-cersei-.jpg",
+        "image": "https://media.giphy.com/media/LFppUfzW8rfpe/giphy.gif",
+        "title": "Viserys Targaryen disse: \"O sopro do maior dragão que existiu forjou o Trono de Ferro\". Qual foi o Dragão, quantas espadas foram usadas e quantos dias demorou a forja do trono?",
+        "description": "Construído por Aegon I Targaryen",
+        "answer": 0,
+        "alternatives": [
+           "Balerion / 1.000 / 59",
+           "Diamath / 2.000 / 1",
+           "Drogon / 1.000 / 15",
+           "Raegar / 5.000 / 28"
+        ]
+      },
+      {
+        "bgquestion": "https://images.hdqwalls.com/wallpapers/melisandre-image.jpg",
+        "image": "https://media.giphy.com/media/3o6ozteedImmRyP7Lq/giphy.gif",
+        "title": "Qual era o nome da Sacerdotisa Vermelha que convence Stannis Baratheon a sacrificar no fogo, sua única filha para conseguir o trono?",
+        "description": "Discipula do Senhor Luz",
+        "answer": 1,
+        "alternatives": [
+           "Catelyn Stark",
+           "Lady Melisandre",
+           "Olenna Tyrell",
+           "Cercei Lannister"
+        ]
+      },
+      {
+        "bgquestion": "https://wallpapercave.com/wp/wp2071414.png",
+        "image": "https://media.giphy.com/media/l41JPHi68yNZ3W8ww/giphy.gif",
+        "title": "Primeira Cavaleira mulher, ordenada por Sir Jaime Lannister",
+        "description": "Honraria especial",
+        "answer": 3,
+        "alternatives": [
+           "Sansa Stark",
+           "Margaery Tyrell",
+           "Myrcella Baratheon",
+           "Brienne de Tarth"
+        ]
+      },
+      {
+        "bgquestion": "https://wallpapershome.com/images/pages/pic_h/10959.jpg",
+        "image": "https://media.giphy.com/media/3o7qDYeNfkeWbqOnyU/giphy.gif",
+        "title": "Objeto cravado no coração de um dos Primeiros Homens, pelos Filhos da Floresta que criou o primeiro dos Caminhantes Brancos. O Rei da Noite!",
+        "description": "Origem do Rei da Noite",
+        "answer": 2,
+        "alternatives": [
+           "Punhal de Aço Valiriano",
+           "Punhal enferrujado",
+           "Punhal de obsidiana",
+           "Punhal de gelo"
+        ]
+      },
+      {
+        "bgquestion": "https://wallpapercave.com/wp/wp5124328.jpg",
+        "image": "https://media.giphy.com/media/Bwt8B1Q2fyNBC/giphy.gif",
+        "title": "O que significa a frase \"Valar Morghulis\" em Alto Valíriano?",
+        "description": "Responda \"Valar Dohaeris\" ",
+        "answer": 0,
+        "alternatives": [
+           "Todos os homens devem morrer",
+           "Todos os homens devem servir",
+           "Muitos homens serão nomeados",
+           "Muitos homens não morrerão"
         ]
       }
     ],
@@ -32,8 +169,8 @@
     "theme": {
       "colors": {
         "primary": "#494850",
-        "secondary": "#978897",
-        "mainBg": "#2C2C34",
+        "secondary": "#998FC7",
+        "mainBg": "#0A090B",
         "contrastText": "#FFFFFF",
         "wrong": "#FF5722",
         "success": "#4CAF50"
