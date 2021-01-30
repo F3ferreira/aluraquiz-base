@@ -1,9 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
-import db from '../db.json';
 import { useRouter } from 'next/router';
 import { motion } from 'framer-motion';
 
+import db from '../db.json';
 import Widget from '../src/components/Widget';
 import QuizBackground from '../src/components/QuizBackground';
 import QuizContainer from '../src/components/QuizContainer';
