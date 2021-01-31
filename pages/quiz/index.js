@@ -30,11 +30,15 @@ function LoadingWidget() {
   );
 }
 
+
 function ResultWidget({ results }) {
+  const router = useRouter();
+  const { name } = router.query;
+  
   return (
     <Widget>
       <Widget.Header>
-        Seus Resultados
+        Parabéns {name} {` `}- Veja como você foi!
       </Widget.Header>
 
       <Widget.Content>
@@ -77,7 +81,7 @@ function QuestionWidget({
     questionIndex,
     totalQuestions,
     onSubmit,
-    addResult,
+    addResult
   }) {
     const [selectedAlternative, setSelectedAlternative] = React.useState(undefined);
     const [isQuestionSubmited, setIsQuestionSubmited] = React.useState(false);

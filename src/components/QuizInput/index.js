@@ -23,6 +23,7 @@ export default function QuizInput( { onChange, placeholder, ...props }) {
       <Input 
       onChange={onChange} 
       placeholder={placeholder}
+      autocomplete="off"
       {...props}
       />
     </div>
