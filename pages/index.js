@@ -132,7 +132,7 @@ export default function Home() {
 
         />
       </QuizContainer>
-      <GitHubCorner projectUrl="https:github.com" />
+      <GitHubCorner projectUrl="https://github.com/F3ferreira/aluraquiz-base" />
     </QuizBackground>
   );
 }
