@@ -123,7 +123,7 @@ function QuestionWidget({
                 addResult(isCorrect);
                 onSubmit();
                 setIsQuestionSubmited(false);
-                setSelectedAlternative(undefined);
+                setSelectedAlternative(null);
               }, 3 * 1000);
             }}
           >
